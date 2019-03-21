@@ -1,0 +1,49 @@
+
+.article{
+  padding:12px 8px;
+  box-sizing: border-box;
+  width:96%;
+  margin:0 auto;
+  border-bottom:1px solid #f0f0f0;
+  cursor: pointer;
+  .article_content{
+    display:flex;
+    //justify-content: center;
+    align-items: center;
+    .article_content_title_content{
+      padding:0 6px;
+      box-sizing: border-box;
+      a{
+        font-size:16px;
+        font-weight: bold;
+      }
+      p{
+        color:#999;
+        font-size:12px;
+      }
+    }
+    .imagBox{
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top:2px;
+      height:90px;
+      img{
+        height:100%;
+        width:100%;
+      }
+    }
+    
+  }
+  .article_author_time{
+     display:flex;
+     padding:4px 6px;
+     box-sizing: border-box;
+     span{
+       margin-right:6px;
+       color:#ea6f5a!important;
+     }
+     a{
+       color:#999;
+     }
+  }
+}
